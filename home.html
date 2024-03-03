@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title%}home{% endblock %}
+
+
+<!--MID START-->
+    <!--Content TITLE-->
+    {% block content_title %}
+        <h3>第一則貼文</h3>
+    {% endblock %}
+
+    <!--Content-->
+    {% block content %}
+        <div class="date d-flex">
+            <img src="/static/images/calendar.png" width="20">
+            <p>2023/01/01</p>
+        </div>
+        <div class="text py-3">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea officiis voluptates enim ipsa, cupiditate sunt quisquam pariatur eveniet esse, voluptatum minus minima? Soluta, perferendis cumque est minima laboriosam illum iste!</p>
+            <button>Read More</button>
+        </div>
+    {% endblock %}
+<!--MID END-->
+
