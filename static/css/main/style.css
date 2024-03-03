@@ -1,0 +1,196 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /*border: 1px red solid;*/
+    background-color: rgb(243, 236, 229);
+}
+
+/*TOP*/
+.top .container{
+    border-bottom: 3px solid rgb(102, 34, 34);
+}
+.navbar button{
+    color: rgb(102, 34, 34);
+    border:none;
+}
+.navbar a{
+    color: rgb(102, 34, 34);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.navbar a:hover{
+    color: rgb(102, 34, 34);
+    background-color:rgba(204, 201, 201, 0.79) ;
+    font-weight: 700;
+}
+
+.navbar .search_bar{
+    
+    border-radius: 60px;
+    border: 3px solid rgb(102, 34, 34);
+    padding: 5px 20px;
+}
+.navbar .search_bar input{
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    font-size: 14px;
+    color: #000;
+}
+::placeholder{
+    color: #000;
+}
+.navbar .search_bar .btn{
+    border: 0;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+}
+
+/*TOP*/
+
+/*MID*/
+.mid{
+    height: 800px;
+    /*border: 1px solid black;*/
+}
+.mid .left{
+    height: 520px;
+    background-color: white;
+    border: 2px solid rgba(204, 201, 201, 0.79);
+    border-top: 4px solid rgb(102, 34, 34);
+    border-bottom: 4px solid rgb(102, 34, 34);
+    padding: 10px;
+    flex-direction: column;
+
+}
+
+.mid .left p{
+    font-size: 24px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(102, 34, 34);
+}
+.mid .left h5{
+    font-family:Arial, Helvetica, sans-serif;
+    color: gray;
+}
+
+.mid .left h6{
+    font-family:Arial, Helvetica, sans-serif;
+    color: gray;
+}
+.mid .left .person_info{
+    width: 200px;
+    border-top: 4px solid rgb(102, 34, 34);
+    flex-direction: row;
+    padding-top: 15px;
+    
+}
+.mid .left .person_info button{
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all .1s linear;
+}
+
+.mid .left .person_info button:hover{
+    transform: scale(1.1);
+}
+
+.mid .content{
+    height: 300px;
+    background-color: white;
+    border: 2px solid rgba(204, 201, 201, 0.79);    
+}
+.mid .content h3{
+    text-align: left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    color: rgb(102, 34, 34);
+}
+.mid .content .date{
+    padding-left: 5px;
+    padding-bottom: 5px;
+    height: 25px;
+}
+.mid .content .date p{
+    font-size: 18px;
+    padding-left: 8px;
+    font-size: 15px;
+    font-weight: 500;
+    color:gray;
+}
+.mid .content .text{
+    border-bottom: 1px solid black;
+}
+.mid .content .text button{
+    font-size: 15px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    background-color: rgb(102, 34, 34);
+    color: white;
+    border: none;
+}
+
+.mid .right{
+    height: auto;
+    background-color: white;
+}
+
+.mid .right p{
+    text-align:left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(197, 155, 155);
+}
+.mid .right ul.categories{
+    list-style: circle;
+    margin-top: 10px;
+}
+.mid .right ul.categories li{
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(186, 158, 158);
+    font-weight: 300;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom:1px solid rgba(204, 201, 201, 0.79);
+    cursor: pointer;
+}
+.mid .right ul.categories li:hover{
+    font-weight: 400;
+    border-bottom:1px solid rgb(102, 34, 34);
+    color: rgb(102, 34, 34);
+    list-style:disc;
+}
+
+/*MID*/
+
+/*Buttom*/
+.buttom{
+    border-top: 3px solid rgb(102, 34, 34);
+    text-align: center;
+    height: 100px;
+}
+.buttom p{
+    margin-top: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(102, 34, 34);
+}
+/*Buttom*/
+
+
